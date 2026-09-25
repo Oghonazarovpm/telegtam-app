@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(140, 160, 185, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(140, 160, 185, 0.45);
+}
+
+/* Telegram subtle dark pattern background */
+.telegram-dark-bg {
+  background-color: #0c131a;
+  background-image: radial-gradient(rgba(42, 171, 238, 0.03) 1px, transparent 1px),
+                    radial-gradient(rgba(255, 255, 255, 0.02) 1px, #0c131a 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+.telegram-light-bg {
+  background-color: #eef2f6;
+  background-image: radial-gradient(rgba(42, 171, 238, 0.07) 1px, transparent 1px),
+                    radial-gradient(rgba(0, 0, 0, 0.03) 1px, #eef2f6 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}

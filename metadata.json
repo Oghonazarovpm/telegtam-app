@@ -1,0 +1,6 @@
+{
+  "name": "TeleShield — Secure Encrypted Messaging",
+  "description": "Telegram web client with end-to-end encrypted group chats, custom granular notification settings, safety keys verification, and calm dark design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
